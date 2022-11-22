@@ -3,10 +3,11 @@ import turtle
 turtle.shape("turtle")
 
 
-i = 1
-while i <= 4:
-    turtle.forward(75)
-    turtle.left(90)
-    i += 1
-
-
+for i in range(1):
+    for j in range(4):
+        turtle.forward(75)
+        turtle.left(90)
+    turtle.left(180)
+    for l in range(3):
+        turtle.forward(100)
+        turtle.right(120)
